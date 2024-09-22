@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* resources/css/app.css */
+
+/* General Styles */
+body {
+    font-family: 'Figtree', sans-serif; /* Ensure font from your HTML */
+    background-color: #f8f9fa; /* Light background color */
+    color: #212529; /* Default text color */
+}
+
+/* Header Styles */
+header {
+    padding: 0; /* Remove padding if needed */
+    background-color: #ffffff; /* Example background color */
+}
+
+/* SVG Logo Styles */
+header .flex svg {
+    width: 100px; /* Adjust size as needed */
+    fill: #FF2D20; /* Change the SVG color */
+}
+
+/* Navigation Styles */
+nav a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    color: #0056b3; /* Hover color */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    padding: 50px 0; /* Adjust padding */
+    background-color: #ffffff; /* Background color for hero section */
+}
+
+.hero-section .display-4 {
+    font-size: 2.5rem; /* Adjust hero title size */
+    font-weight: bold; /* Bold text */
+}
+
+.hero-section .lead {
+    font-size: 1.25rem; /* Adjust subtitle size */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Primary button hover color */
+    border-color: #0056b3; /* Button border color on hover */
+}
+
+/* Features Section Styles */
+#features {
+    background-color: #ffffff; /* Background color for features section */
+    padding: 30px 0; /* Padding for features section */
+}
+
+.feature-card {
+    border: 1px solid #e3e3e3; /* Card border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card shadow */
+}
+
+.feature-card .card-title {
+    font-size: 1.25rem; /* Title size */
+    font-weight: bold; /* Title weight */
+}
+
+.feature-card .card-text {
+    font-size: 1rem; /* Text size */
+    color: #6c757d; /* Text color */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Background color */
+    color: #6c757d; /* Text color */
+}
